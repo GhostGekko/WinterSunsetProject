@@ -7,10 +7,10 @@ if (global.pause)
 	draw_set_color(c_white);
 	draw_set_alpha(1);
 	if (!window_get_fullscreen()){
-		draw_text(20, 20, "Press F1 for Fullscreen");
+		draw_text(120, 20, "Press F1 for Fullscreen");
 	}
 	else{
-		draw_text(20, 20, "Press F1 for Windowed");
+		draw_text(110, 20, "Press F1 for Windowed");
 }
 	draw_text(room_width/2,room_height/2,"Game Paused");
 	draw_set_color(c_black);
