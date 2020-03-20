@@ -15,6 +15,6 @@ if (global.pause && !(room == rm_startScreen))
 	draw_text(room_width/2,room_height/2,"Game Paused");
 	draw_set_color(c_black);
 	
-	instance_create_layer(room_width/2, room_height/2, "Pause", obj_load);
-	instance_create_layer(room_width/2, room_height/2 + 120, "Pause", obj_save);
+	instance_create_layer(view_get_xport(view_camera[0])/2, view_get_yport(view_camera[0])/2, "Pause", obj_load);
+	instance_create_layer(view_get_xport(view_camera[0])/2, view_get_yport(view_camera[0])/2 + 120, "Pause", obj_save);
 }
