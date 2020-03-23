@@ -5,5 +5,4 @@ if (global.pause == 0)
 else
 {
 	global.pause = 0;
-	layer_destroy_instances("Pause");
 }

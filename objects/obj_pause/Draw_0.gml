@@ -1,11 +1,11 @@
+var vx = camera_get_view_x(view_camera[0]);	//gets x coordinate of viewport upper right corner
+var vy = camera_get_view_y(view_camera[0]);	//gets y coordinate of viewport upper right corner
+	
+var vw = camera_get_view_width(view_camera[0]); // gets view width
+var vh = camera_get_view_height(view_camera[0]); //gets view height
+
 if (global.pause && !(room == rm_startScreen))
 {
-	var vx = camera_get_view_x(view_camera[0]);	//gets x coordinate of viewport upper right corner
-	var vy = camera_get_view_y(view_camera[0]);	//gets y coordinate of viewport upper right corner
-	
-	var vw = camera_get_view_width(view_camera[0]); // gets view width
-	var vh = camera_get_view_height(view_camera[0]); //gets view height
-	
 	draw_set_color(c_black);
 	draw_set_alpha(0.5);
 	draw_rectangle(0,0,room_width,room_height,0);
@@ -19,8 +19,4 @@ if (global.pause && !(room == rm_startScreen))
 		draw_text(vx + 150, vy + 20, "Press F1 for Windowed");
 	}
 	draw_text(vx + vw/2, vy + 50,"Game Paused");
-	draw_set_color(c_black);
-	
-	instance_create_layer(vx + vw/2, vy + vh/2 - 75, "Pause", obj_load);
-	instance_create_layer(vx + vw/2, vy + vh/2 + 75, "Pause", obj_save);
 }
