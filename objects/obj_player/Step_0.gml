@@ -9,6 +9,7 @@ key_left = keyboard_check(vk_left) or (keyboard_check(ord("A")));
 key_right = keyboard_check(vk_right) or (keyboard_check(ord("D")));
 key_jump = keyboard_check_pressed(vk_space);
 key_attack = keyboard_check_pressed(ord("E"));
+key_crouching = keyboard_check_pressed(ord("H"));
 
 //Calculate movement
 var _move = key_right - key_left;
@@ -52,4 +53,8 @@ else if(key_right){
 }
 else{
 	image_index = 0;
+}
+
+if (key_crouching){
+	crouching = !crouching;
 }
