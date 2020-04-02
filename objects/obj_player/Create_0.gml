@@ -12,4 +12,4 @@ grv = 0.3;
 
 walksp = 6;
 
-jumpsp = 7;
+jumpsp = 9;
