@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "048a0c8d-43ca-439c-9cfb-6127c34924c2",
+            "Value": {
+                "id": "3e2aadcb-430b-4144-9a25-22d7e855f159",
+                "resourcePath": "sprites\\spr_stairsMiddle\\spr_stairsMiddle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0e2846f7-622e-4ad5-957e-c8a26bc93d02",
             "Value": {
                 "id": "f785344c-b5c4-4677-b32b-1f1af12108c0",
@@ -183,6 +191,14 @@
             }
         },
         {
+            "Key": "821ee0e9-c6ab-45c1-a94f-2e2c9125b39a",
+            "Value": {
+                "id": "760f4b99-2203-42fd-9922-f9140b722def",
+                "resourcePath": "objects\\obj_stairsMiddle\\obj_stairsMiddle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "836ea6e7-0467-4a9d-a7ba-f7da2bb2f107",
             "Value": {
                 "id": "f3bcf7a4-1ed4-4503-baac-7b64bd8a5dbe",
@@ -268,6 +284,14 @@
                 "id": "81c7ff83-c9bb-41c0-890c-e488f80aaee9",
                 "resourcePath": "sprites\\spr_walkLeft\\spr_walkLeft.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "e85f0046-6880-4fbc-9237-ae3f6f756765",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
             }
         },
         {
@@ -412,6 +436,14 @@
                 "id": "5aefe636-4223-4d76-9cd8-6036142b3128",
                 "resourcePath": "sprites\\spr_door\\spr_door.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "2550768c-a63d-4ae5-a85b-63984cab568e",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         }
     ],
