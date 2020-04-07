@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_game",
+    "name": "rm_tutorial",
     "id": "d9d2968d-8a73-4bc2-aade-24c90a534ab5",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,

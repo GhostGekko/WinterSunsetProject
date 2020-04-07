@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_game2",
+    "name": "rm_pathToCastle",
     "id": "a6e16825-1d61-40b2-9e79-a92cf7d8451f",
     "creationCodeFile": "",
     "inheritCode": false,

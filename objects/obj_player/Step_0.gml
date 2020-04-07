@@ -18,10 +18,11 @@ hsp = _move * walksp;
 
 vsp += grv;
 
+//jumping
 if (place_meeting(x,y+1,obj_floor) && (key_jump)){
 	vsp = -jumpsp;
 }
-else if (place_meeting(x,y+1,obj_stairs) && (key_jump)){
+else if (place_meeting(x,y+1,obj_stairs2) && (key_jump)){
 	vsp = -jumpsp;
 }
 
@@ -31,11 +32,18 @@ if (place_meeting(x+hsp,y,obj_floor)){
 		x += sign(hsp);
 	}
 	hsp = 0;
-} //code here is for stairs
-else if (place_meeting(x+hsp,y,obj_stairs)){
+} //code here is for stairs(square)
+else if (place_meeting(x+hsp,y,obj_stairs2)){
+while(!place_meeting(x+sign(hsp),y,obj_stairs2)){
+		x += sign(hsp);
+	}
+	hsp = 0;
+}
+//code here is for stairs(triangular)
+/*else if (place_meeting(x+hsp,y,obj_stairs)){
 	yplus = 0;
 	while (place_meeting(x+hsp,y-yplus,obj_stairs) && yplus <=abs(1*hsp))
-		yplus +=10;
+		yplus +=1;
 	if (place_meeting(x+hsp,y-yplus,obj_stairs))
 	{
 		while(!place_meeting(x+sign(hsp),y,obj_stairs)){
@@ -47,7 +55,7 @@ else if (place_meeting(x+hsp,y,obj_stairs)){
 		y -= yplus;
 	}
 	hsp = 0;
-}
+}*/
 x += hsp;
 
 //Vertical collision
@@ -56,13 +64,20 @@ if (place_meeting(x,y+vsp,obj_floor)){
 		y += sign(vsp);
 	}
 	vsp = 0;
-} //code here is for stairs
-else if (place_meeting(x,y+vsp,obj_stairs)){
-	while(!place_meeting(x,y+sign(vsp),obj_stairs)){
+} //code here is for stairs(square)
+else if (place_meeting(x,y+vsp,obj_stairs2)){
+	while(!place_meeting(x,y+sign(vsp),obj_stairs2)){
 		y += sign(vsp);
 	}
 	vsp = 0;
 }
+//code here is for stairs(triangular)
+/*else if (place_meeting(x,y+vsp,obj_stairs)){
+	while(!place_meeting(x,y+sign(vsp),obj_stairs)){
+		y += sign(vsp);
+	}
+	vsp = 0;
+}*/
 y += vsp;
 
 //Change direction && walk
