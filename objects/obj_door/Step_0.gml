@@ -20,3 +20,17 @@ if (place_meeting(x,y,obj_player) && time == 0){
 	obj_player.x = targetX;
 	obj_player.y = targetY;
 }
+
+if (!place_meeting(x,y,obj_player)){
+	if (image_index != 0){
+		image_speed = -1;
+	}
+	else {
+	image_speed = 0;
+	}
+} else if (place_meeting(x,y,obj_player)){
+	image_speed = 1;
+	if (image_index = 3) {
+			image_speed = 0;
+	}
+}
