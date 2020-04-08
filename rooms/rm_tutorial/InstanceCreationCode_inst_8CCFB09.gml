@@ -1,3 +1,3 @@
-targetRoom = rm_game2;
+targetRoom = rm_pathToCastle;
 targetX = 192;
 targetY = 608;

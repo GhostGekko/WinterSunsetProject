@@ -1,3 +1,3 @@
 targetRoom = rm_stairs1;
-targetX = 162;
-targetY = 1560;
+targetX = 205;
+targetY = 1563;

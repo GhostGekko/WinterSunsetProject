@@ -1,3 +1,3 @@
-targetRoom = rm_game;
-targetX = 4650;
+targetRoom = rm_tutorial;
+targetX = 4662;
 targetY = 600;
