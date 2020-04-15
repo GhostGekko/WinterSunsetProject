@@ -1,7 +1,7 @@
 depth = 1;
 
-time = 2;
+fadeTime = 2;
 
-startClock = false;
+fadestartClock = false;
 
 var targetRoom, targetX, targetY;

@@ -1,3 +1,3 @@
-targetRoom = rm_floor3;
+/*targetRoom = rm_floor3;
 targetX = 72;
-targetY = 600;
+targetY = 600;*/
