@@ -20,7 +20,21 @@ if (global.pause && !(room == rm_startScreen))
 		draw_text(global.vx + 150, global.vy + 20, "Press F1 for Windowed");
 	}
 	draw_text(global.vx + global.vw/2, global.vy + 50,"Game Paused");
+	
+	
+	//key variable for pause screen
+	//green key
+	if (global.keyGreen){
+		draw_set_color(c_green);
+		draw_text(global.vx + global.vw - global.vw/4, global.vy + global.vh/2, "Green Key");
+	}
+	else {
+		draw_set_color(c_gray);
+		draw_text(global.vx + global.vw - global.vw/4, global.vy + global.vh/2, "Green Key");
+	}
 }
+
+
 
 /*
 *	Fades room to black when walking from room to room

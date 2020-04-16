@@ -1,3 +1,3 @@
 targetRoom = rm_tutorial;
-targetX = 4662;
+targetX = 4644;
 targetY = 600;

@@ -7,4 +7,8 @@ else{
 
 global.pause = 0;
 
+global.keyGreen = false;
+
+global.lockGreen = true;
+
 room_goto_next();
