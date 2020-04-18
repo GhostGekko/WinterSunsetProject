@@ -1,3 +1,8 @@
+if (global.playerHealth == 0) {
+	instance_deactivate_object(obj_player);
+	room_goto(rm_gameOver);
+}
+
 if (global.pause)
 {
 	image_speed = 0;
@@ -111,4 +116,8 @@ else{
 
 if (key_crouching){
 	crouching = !crouching;
+}
+
+if (keyboard_check_pressed(ord("H"))) {
+	global.playerHealth -= 1;
 }

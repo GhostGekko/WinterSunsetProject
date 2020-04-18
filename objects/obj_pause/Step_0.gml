@@ -1,11 +1,6 @@
-getRoomHeight = room_height;
-getRoomWidth = room_width;
+mouseX = device_mouse_x_to_gui(0);
+mouseY = device_mouse_y_to_gui(0);
 
-if (global.pause && !(room == rm_startScreen)){
-	instance_create_depth(global.vx + global.vw/4, global.vy + global.vh/2 - 75, -2, obj_save);
-	instance_create_depth(global.vx + global.vw/4, global.vy + global.vh/2 + 75, -2, obj_load);
-}
-else{
-	instance_destroy(obj_save);
-	instance_destroy(obj_load);
-} 
+saveGame = false;
+
+loadGame = false;

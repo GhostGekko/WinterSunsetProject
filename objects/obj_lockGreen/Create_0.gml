@@ -1,4 +1,4 @@
-depth = -1;
+depth = 1;
 
 if (global.lockGreen) {
 	instance_deactivate_object(instance_nearest(x,y,obj_door));

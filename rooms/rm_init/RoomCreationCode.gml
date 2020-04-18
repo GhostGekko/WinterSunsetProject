@@ -11,4 +11,10 @@ global.keyGreen = false;
 
 global.lockGreen = true;
 
+global.keyBrown = false;
+
+global.lockBrown = true;
+
+global.playerHealth = 3;
+
 room_goto_next();

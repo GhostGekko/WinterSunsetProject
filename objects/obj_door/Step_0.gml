@@ -16,11 +16,17 @@ if (fadestartClock) {
 }
 
 if (fadeTime == 0){
-	room_goto(targetRoom);
-	obj_player.x = targetX;
-	obj_player.y = targetY;
-	fadestartClock = false;
-	fadeTime = 2;
+	if(!(targetRoom == rm_floor3)) {
+		room_goto(targetRoom);
+		obj_player.x = targetX;
+		obj_player.y = targetY;
+		fadestartClock = false;
+		fadeTime = 2;
+	}
+	else {
+		instance_deactivate_object(obj_player);
+		room_goto(rm_youWin);
+	}
 }
 
 if (!place_meeting(x,y,obj_player)){
