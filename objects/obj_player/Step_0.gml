@@ -117,7 +117,3 @@ else{
 if (key_crouching){
 	crouching = !crouching;
 }
-
-if (keyboard_check_pressed(ord("H"))) {
-	global.playerHealth -= 1;
-}

@@ -74,11 +74,23 @@ if (global.pause && instance_exists(obj_player))
 	//green key
 	if (global.keyGreen){
 		draw_set_color(c_green);
-		draw_text(vw - vw/4, vh/2, "Green Key");
+		draw_text(vw - vw/4, vh/4, "Green Key");
 	}
 	else {
 		draw_set_color(c_gray);
-		draw_text(vw - vw/4, vh/2, "Green Key");
+		draw_text(vw - vw/4, vh/4, "Green Key");
+	}
+	
+	brown = make_colour_rgb(106, 75, 15);
+	
+	//brown key
+	if (global.keyBrown){
+		draw_set_color(brown);
+		draw_text(vw - vw/4, (vh/4)*2, "Brown Key");
+	}
+	else {
+		draw_set_color(c_gray);
+		draw_text(vw - vw/4, (vh/4)*2, "Brown Key");
 	}
 }
 
