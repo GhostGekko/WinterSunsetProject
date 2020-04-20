@@ -1,5 +1,5 @@
 if (crouching && position_meeting(x,y,other)) {
-	depth = 2;
+	depth = 3;
 	seeable = false;
 	walksp = 3;
 }

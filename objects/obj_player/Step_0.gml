@@ -24,67 +24,16 @@ hsp = _move * walksp;
 
 vsp += grv;
 
-//if player is toughing the floor
-meetsFloor = place_meeting(x,y+1,obj_floor) || place_meeting(x,y+1,obj_stairs2);
+//if player is touching the floor
+meetsFloor = place_meeting(x,y+1,obj_floor);
 
 //jumping
 if (meetsFloor && (key_jump)){
 	vsp = -jumpsp;
 }
 
-//Horizontal collision
-if (place_meeting(x+hsp,y,obj_floor)){
-	while(!place_meeting(x+sign(hsp),y,obj_floor)){
-		x += sign(hsp);
-	}
-	hsp = 0;
-} //code here is for stairs(square)
-else if (place_meeting(x+hsp,y,obj_stairs2)){
-while(!place_meeting(x+sign(hsp),y,obj_stairs2)){
-		x += sign(hsp);
-	}
-	hsp = 0;
-}
-//code here is for stairs(triangular)
-/*else if (place_meeting(x+hsp,y,obj_stairs)){
-	yplus = 0;
-	while (place_meeting(x+hsp,y-yplus,obj_stairs) && yplus <=abs(1*hsp))
-		yplus +=1;
-	if (place_meeting(x+hsp,y-yplus,obj_stairs))
-	{
-		while(!place_meeting(x+sign(hsp),y,obj_stairs)){
-			x += sign(hsp);
-		}
-	}
-	else
-	{
-		y -= yplus;
-	}
-	hsp = 0;
-}*/
-x += hsp;
+move();
 
-//Vertical collision
-if (place_meeting(x,y+vsp,obj_floor)){
-	while(!place_meeting(x,y+sign(vsp),obj_floor)){
-		y += sign(vsp);
-	}
-	vsp = 0;
-} //code here is for stairs(square)
-else if (place_meeting(x,y+vsp,obj_stairs2)){
-	while(!place_meeting(x,y+sign(vsp),obj_stairs2)){
-		y += sign(vsp);
-	}
-	vsp = 0;
-}
-//code here is for stairs(triangular)
-/*else if (place_meeting(x,y+vsp,obj_stairs)){
-	while(!place_meeting(x,y+sign(vsp),obj_stairs)){
-		y += sign(vsp);
-	}
-	vsp = 0;
-}*/
-y += vsp;
 
 //Change direction, walk and jump
 var lookRight = true;

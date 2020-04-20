@@ -663,6 +663,14 @@
             }
         },
         {
+            "Key": "bc681218-ebab-4528-80db-d96d1d3ff2f8",
+            "Value": {
+                "id": "7b356479-9791-4464-8555-8d943a061653",
+                "resourcePath": "objects\\obj_monster\\obj_monster.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bcaa4372-6fd3-4865-a777-d6b63c953afe",
             "Value": {
                 "id": "f53a8c2d-ebf8-4407-89e9-1532fc207e98",
@@ -759,6 +767,14 @@
             }
         },
         {
+            "Key": "c97ef0f1-c9b6-4c8c-92d6-dc8c6780f9ff",
+            "Value": {
+                "id": "c3126b79-e322-4d74-9334-ee5dce13dbef",
+                "resourcePath": "scripts\\monMove\\monMove.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ca9ef8db-7646-46ae-a676-e023ce5d4e66",
             "Value": {
                 "id": "4079ed7e-e9c8-45c9-a1ea-9c2ce652e611",
@@ -780,6 +796,14 @@
                 "id": "14a07f22-08b0-4690-a8d7-7a4f0bf9531d",
                 "resourcePath": "views\\d0002c8f-fa89-48ad-bee7-1df5637292bf.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d04a8ccb-463c-455b-97f3-797b8dbc4652",
+            "Value": {
+                "id": "7f67c804-81ca-4c6b-bdc1-aac809c2c31d",
+                "resourcePath": "sprites\\spr_monsTemp\\spr_monsTemp.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -935,6 +959,14 @@
             }
         },
         {
+            "Key": "ed782131-4168-4d5c-bcb7-f3e456e21224",
+            "Value": {
+                "id": "22ed607b-a163-4292-ba81-b1726d6c7ca0",
+                "resourcePath": "scripts\\move\\move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f205bd8c-0a64-444d-bca6-d1eadaa8ee8b",
             "Value": {
                 "id": "e67409bc-391a-49d8-8a62-05fe7d2ec9a2",
@@ -1000,7 +1032,8 @@
         }
     ],
     "script_order": [
-        
+        "ed782131-4168-4d5c-bcb7-f3e456e21224",
+        "c97ef0f1-c9b6-4c8c-92d6-dc8c6780f9ff"
     ],
     "tutorial": ""
 }

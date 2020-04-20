@@ -9,22 +9,22 @@ if (instance_exists(obj_player)) {
 	}
 	
 	//Right
-	if (pressedLeft ==true && pressedRight == false) {
+	else if (pressedLeft ==true && pressedRight == false) {
 	draw_text( view_wport[0]/2, view_yport[0] +view_hport[0]/4, "Press right or 'D' to move right!");
 	}
 	
 	//Space
-	if (pressedRight ==true && pressedSpace == false) {
+	else if (pressedRight ==true && pressedSpace == false) {
 	draw_text( view_wport[0]/2, view_yport[0] +view_hport[0]/4, "Press the spacebar to jump!");
 	}
 	
 	//Hide
-	if (pressedSpace ==true && pressedHide == false) {
+	else if (pressedSpace ==true && pressedHide == false) {
 	draw_text( view_wport[0]/2, view_yport[0] +view_hport[0]/4, "Hide in bushes by pressing 'H'");
 	}
 	
 	//Attack
-	if (pressedHide ==true && pressedAttack == false) {
+	else if (pressedHide ==true && pressedAttack == false) {
 	draw_text( view_wport[0]/2, view_yport[0] +view_hport[0]/4, "Attack mosters (or training dummies) by pressing 'E'!"
 	+ "\n (You can only attack when not hidden)");
 	}

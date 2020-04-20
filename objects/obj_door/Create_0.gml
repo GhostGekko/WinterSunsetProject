@@ -1,4 +1,4 @@
-depth = 1;
+depth = 2;
 
 fadeTime = 2;
 
