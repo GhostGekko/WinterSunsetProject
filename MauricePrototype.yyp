@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "3c8ff000-7ce6-4752-b9dd-00bf1c93b0d1",
+            "Value": {
+                "id": "c16b8c1c-fe53-4373-a5d3-c6242842a468",
+                "resourcePath": "sprites\\spr_heart\\spr_heart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "408e7a13-4017-492d-855e-0533b5817d62",
             "Value": {
                 "id": "db13b2ad-fd78-4248-81fe-7996d0b300e4",

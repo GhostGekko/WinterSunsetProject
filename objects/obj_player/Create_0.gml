@@ -12,6 +12,6 @@ grv = 0.3;
 
 walksp = 6;
 
-jumpsp = 9;
+jumpsp = 10;
 
 lookRight = true;

@@ -10,7 +10,7 @@ if (global.pause && instance_exists(obj_player))
 	draw_rectangle(0,0,vw,vw,0);
 
 	
-	saveX = view_wport[0]/4;
+	saveX = view_wport[0]*(3/8);
 	saveY = view_hport[0]/3;
 	
 	draw_sprite(btn_save,0,saveX, saveY);
@@ -35,7 +35,7 @@ if (global.pause && instance_exists(obj_player))
 	
 	draw_set_alpha(0.5);
 	
-	loadX = view_wport[0]/4;
+	loadX = view_wport[0]*(3/8);
 	loadY = view_hport[0]*(2/3);
 	
 	draw_sprite(btn_load,0,loadX, loadY);
@@ -69,28 +69,37 @@ if (global.pause && instance_exists(obj_player))
 	}
 	draw_text(vw/2, 50,"Game Paused");
 	
+	//box for keys
+	draw_set_color(c_black);
+	draw_set_alpha(0.75);
+	draw_rectangle(vw/2,vh/4,vw*(3/4),vh*(3/4),0);
+	
+	
+	draw_set_alpha(1);
+	gray = make_color_rgb(153,153,153);
+	brown = make_colour_rgb(106, 75, 15);
 	
 	//key variable for pause screen
 	//green key
 	if (global.keyGreen){
+		draw_sprite(spr_keyGreen,0,vw*(9/16), vh/3);
 		draw_set_color(c_green);
-		draw_text(vw - vw/4, vh/3, "Green Key");
+		draw_text(vw*(5/8), vh/3, "Green Key");
 	}
 	else {
-		draw_set_color(c_gray);
-		draw_text(vw - vw/4, vh/3, "Green Key");
+		draw_set_color(gray);
+		draw_text(vw*(5/8), vh/3, "Green Key");
 	}
-	
-	brown = make_colour_rgb(106, 75, 15);
 	
 	//brown key
 	if (global.keyBrown){
+		draw_sprite(spr_keyBrown,0,vw*(9/16), (vh/3)*2);
 		draw_set_color(brown);
-		draw_text(vw - vw/4, (vh/3)*2, "Brown Key");
+		draw_text(vw*(5/8), (vh/3)*2, "Brown Key");
 	}
 	else {
-		draw_set_color(c_gray);
-		draw_text(vw - vw/4, (vh/3)*2, "Brown Key");
+		draw_set_color(gray);
+		draw_text(vw*(5/8), (vh/3)*2, "Brown Key");
 	}
 }
 

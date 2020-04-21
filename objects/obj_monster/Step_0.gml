@@ -28,9 +28,14 @@ else if (attackTime != 120){
 }
 
 if (hsp >= 1) {
-	image_xscale = -1;
-}
-else {
 	image_xscale = 1;
+	image_speed = 1;
+}
+else if (hsp <= -1) {
+	image_xscale = -1;
+	image_speed = 1;
+}else {
+	image_xscale = 1;
+	image_speed = 0;
 }
 
