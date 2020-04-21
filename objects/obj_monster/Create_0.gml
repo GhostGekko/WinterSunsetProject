@@ -6,8 +6,10 @@ chase = 2;
 
 grav = 0.1;
 
-attackTime = 120;
+attackTime = 90;
 
-monHealth = 2;
+changeDir = 240;
+
+monHealth = 3;
 
 depth = 1;
