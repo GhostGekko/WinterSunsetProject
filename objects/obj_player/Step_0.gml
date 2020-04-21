@@ -34,35 +34,48 @@ if (meetsFloor && (key_jump)){
 
 move();
 
-
-//Change direction, walk and jump
-var lookRight = true;
-
-if(key_left && meetsFloor){
-	sprite_index = spr_walkLeft;
-	image_speed = 1;
-	lookRight = false;
-}
-else if(key_right && meetsFloor){
-	sprite_index = spr_walkRight;
-	image_speed = 1;
+if (key_right){
 	lookRight = true;
 }
-else if (!meetsFloor){
-	if (key_left){
+else if (key_left) {
+	lookRight = false;
+}
+
+//Change direction, walk and jump
+if(meetsFloor){
+	if (lookRight) {
+		sprite_index = spr_walkRight;
+		image_speed = 1;
+	}
+	else {
+		sprite_index = spr_walkLeft;
+		image_speed = 1;
+	}
+}
+else if (!meetsFloor) {
+	if (!lookRight){
 		sprite_index = spr_jumpLeft;
-	} else if (key_right){
+	} else{
 		sprite_index = spr_jump;
 	}
-	image_speed = 1;
-	if (image_index == 2){
-		image_speed = 0;
-	}
-} 
-else{
+}
+
+if (!(key_left || key_right)){
 	image_index = 0;
+	image_speed = 0;
 }
 
 if (key_crouching){
 	crouching = !crouching;
+}
+
+if (crouching) {
+	if (!(key_left || key_right)) {
+		if (lookRight) {
+			sprite_index = spr_crouchRight;
+		}
+		else {
+			sprite_index = spr_crouchLeft;
+		}
+	}
 }

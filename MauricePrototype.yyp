@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "c7574c93-0c46-4a95-b404-ec0da2517022",
+            "Value": {
+                "id": "179bb5cf-c43f-4956-aeba-331fe5062ac5",
+                "resourcePath": "sprites\\spr_crouchRight\\spr_crouchRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c8ab16f9-8fc1-4c24-9abe-55df7f88ae98",
             "Value": {
                 "id": "920ad1fc-3bbe-4cf2-84ba-36ebd29d932e",
@@ -964,6 +972,14 @@
                 "id": "22ed607b-a163-4292-ba81-b1726d6c7ca0",
                 "resourcePath": "scripts\\move\\move.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f11f6fc1-31c8-4b65-ba80-0796e1f717e7",
+            "Value": {
+                "id": "e4b64eee-b0ad-44a1-8def-d3eb08a73df5",
+                "resourcePath": "sprites\\spr_crouchLeft\\spr_crouchLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
