@@ -11,7 +11,7 @@ if (global.pause && instance_exists(obj_player))
 
 	
 	saveX = view_wport[0]/4;
-	saveY = view_hport[0]/2;
+	saveY = view_hport[0]/3;
 	
 	draw_sprite(btn_save,0,saveX, saveY);
 	
@@ -36,7 +36,7 @@ if (global.pause && instance_exists(obj_player))
 	draw_set_alpha(0.5);
 	
 	loadX = view_wport[0]/4;
-	loadY = view_hport[0]/4;
+	loadY = view_hport[0]*(2/3);
 	
 	draw_sprite(btn_load,0,loadX, loadY);
 	
@@ -62,10 +62,10 @@ if (global.pause && instance_exists(obj_player))
 	draw_set_color(c_white);
 
 	if (!window_get_fullscreen()){
-		draw_text(150, 20, "Press F1 for Fullscreen");
+		draw_text(vw - 150, 20, "Press F1 for Fullscreen");
 	}
 	else{
-		draw_text(150, 20, "Press F1 for Windowed");
+		draw_text(vw - 150, 20, "Press F1 for Windowed");
 	}
 	draw_text(vw/2, 50,"Game Paused");
 	
@@ -74,11 +74,11 @@ if (global.pause && instance_exists(obj_player))
 	//green key
 	if (global.keyGreen){
 		draw_set_color(c_green);
-		draw_text(vw - vw/4, vh/4, "Green Key");
+		draw_text(vw - vw/4, vh/3, "Green Key");
 	}
 	else {
 		draw_set_color(c_gray);
-		draw_text(vw - vw/4, vh/4, "Green Key");
+		draw_text(vw - vw/4, vh/3, "Green Key");
 	}
 	
 	brown = make_colour_rgb(106, 75, 15);
@@ -86,11 +86,11 @@ if (global.pause && instance_exists(obj_player))
 	//brown key
 	if (global.keyBrown){
 		draw_set_color(brown);
-		draw_text(vw - vw/4, (vh/4)*2, "Brown Key");
+		draw_text(vw - vw/4, (vh/3)*2, "Brown Key");
 	}
 	else {
 		draw_set_color(c_gray);
-		draw_text(vw - vw/4, (vh/4)*2, "Brown Key");
+		draw_text(vw - vw/4, (vh/3)*2, "Brown Key");
 	}
 }
 

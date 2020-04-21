@@ -1,3 +1,3 @@
 targetRoom = rm_pathToCastle;
-targetX = 192;
-targetY = 603;
+targetX = 198;
+targetY = 600;
