@@ -16,7 +16,7 @@ monMove();
 
 if (place_meeting(x,y, obj_player)) {
 	if (attackTime == 0){
-		global.playerHealth -=1;
+		global.playerHealth -=0;
 		attackTime = 120;
 	}
 	else {

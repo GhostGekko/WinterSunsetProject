@@ -37,7 +37,7 @@ move();
 if (key_right){
 	lookRight = true;
 }
-else if (key_left) {
+if (key_left) {
 	lookRight = false;
 }
 

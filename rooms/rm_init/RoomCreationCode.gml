@@ -15,6 +15,22 @@ global.keyBrown = false;
 
 global.lockBrown = true;
 
+global.keyRed = false;
+
+global.lockRed = true;
+
+global.keyGold = false;
+
+global.lockGold = true;
+
+global.keyBlack = false;
+
+global.lockBlack = true;
+
+global.keyBlue = false;
+
+global.lockBlue = true;
+
 global.playerHealth = 5;
 
 room_goto_next();

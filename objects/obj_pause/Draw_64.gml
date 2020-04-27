@@ -70,36 +70,87 @@ if (global.pause && instance_exists(obj_player))
 	draw_text(vw/2, 50,"Game Paused");
 	
 	//box for keys
-	draw_set_color(c_black);
-	draw_set_alpha(0.75);
-	draw_rectangle(vw/2,vh/4,vw*(3/4),vh*(3/4),0);
+	if (!global.keyBlue){
+		draw_set_color(c_black);
+		draw_set_alpha(0.75);
+		draw_rectangle(vw/2,vh*(3/12),vw*(8/12),vh*(3/4)-16,0);
+	}
+	else {
+		draw_set_color(c_black);
+		draw_set_alpha(0.75);
+		draw_rectangle(vw/2,vh*(3/12),vw*(8/12),vh*(10/12)-16,0);
+	}
 	
 	
 	draw_set_alpha(1);
 	gray = make_color_rgb(153,153,153);
 	brown = make_colour_rgb(106, 75, 15);
+	red = make_colour_rgb(170, 32, 3);
+	gold = make_colour_rgb(171, 128, 72);
+	black = make_colour_rgb(61, 60, 60);
+	blue = make_colour_rgb(2, 56, 239);
 	
 	//key variable for pause screen
 	//green key
 	if (global.keyGreen){
-		draw_sprite(spr_keyGreen,0,vw*(9/16), vh/3);
+		draw_sprite(spr_keyGreen,0,vw*(17/32), vh*(4/12));
 		draw_set_color(c_green);
-		draw_text(vw*(5/8), vh/3, "Green Key");
+		draw_text(vw*(19/32), vh*(4/12)-16, "Green Key");
 	}
 	else {
 		draw_set_color(gray);
-		draw_text(vw*(5/8), vh/3, "Green Key");
+		draw_text(vw*(19/32), vh*(4/12)-16, "Green Key");
 	}
 	
 	//brown key
 	if (global.keyBrown){
-		draw_sprite(spr_keyBrown,0,vw*(9/16), (vh/3)*2);
+		draw_sprite(spr_keyBrown,0,vw*(17/32), vh*(5/12));
 		draw_set_color(brown);
-		draw_text(vw*(5/8), (vh/3)*2, "Brown Key");
+		draw_text(vw*(19/32), vh*(5/12)-16, "Brown Key");
 	}
 	else {
 		draw_set_color(gray);
-		draw_text(vw*(5/8), (vh/3)*2, "Brown Key");
+		draw_text(vw*(19/32), vh*(5/12)-16, "Brown Key");
+	}
+	
+	//red key
+	if (global.keyRed){
+		draw_sprite(spr_keyRed,0,vw*(17/32), vh*(6/12));
+		draw_set_color(red);
+		draw_text(vw*(19/32), vh*(6/12)-16, "Red Key");
+	}
+	else {
+		draw_set_color(gray);
+		draw_text(vw*(19/32), vh*(6/12)-16, "Red Key");
+	}
+	
+	//gold key
+	if (global.keyGold){
+		draw_sprite(spr_keyGold,0,vw*(17/32), vh*(7/12));
+		draw_set_color(gold);
+		draw_text(vw*(19/32), vh*(7/12)-16, "Gold Key");
+	}
+	else {
+		draw_set_color(gray);
+		draw_text(vw*(19/32), vh*(7/12)-16, "Gold Key");
+	}
+	
+	//black key
+	if (global.keyBlack){
+		draw_sprite(spr_keyBlack,0,vw*(17/32), vh*(8/12));
+		draw_set_color(black);
+		draw_text(vw*(19/32), vh*(8/12)-16, "Black Key");
+	}
+	else {
+		draw_set_color(gray);
+		draw_text(vw*(19/32), vh*(8/12)-16, "Black Key");
+	}
+	
+	//blue key
+	if (global.keyBlue){
+		draw_sprite(spr_keyBlue,0,vw*(17/32), vh*(9/12));
+		draw_set_color(blue);
+		draw_text(vw*(19/32), vh*(9/12)-16, "Blue Key");
 	}
 }
 
