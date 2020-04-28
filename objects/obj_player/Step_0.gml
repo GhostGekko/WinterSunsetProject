@@ -79,3 +79,12 @@ if (crouching) {
 		}
 	}
 }
+
+if(hasQueen){
+	jumpsp = 0;
+	walksp = 5;
+	grv = 0.6;
+	if (room == rm_pathToCastle) {
+		global.escaped = true;
+	}
+}

@@ -2,9 +2,9 @@ hsp = 0;
 
 vsp = 0;
 
-chase = obj_player.walksp +1;
+chase = obj_player.walksp +4;
 
-grav = 0.1;
+grav = 1;
 
 behindLeft = 64;
 

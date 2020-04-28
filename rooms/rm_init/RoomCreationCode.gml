@@ -33,4 +33,8 @@ global.lockBlue = true;
 
 global.playerHealth = 5;
 
-room_goto_next();
+global.escaped = false;
+
+//room_goto_next();\
+
+room_goto(rm_princesChamber);

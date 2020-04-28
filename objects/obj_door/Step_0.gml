@@ -19,6 +19,10 @@ if (fadeTime == 0){
 	room_goto(targetRoom);
 	obj_player.x = targetX;
 	obj_player.y = targetY;
+	if (obj_player.hasQueen) {
+		obj_queen.x = targetX;
+		obj_queen.y = targetY;
+	}
 	fadestartClock = false;
 	fadeTime = 2;
 }

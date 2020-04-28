@@ -15,3 +15,5 @@ walksp = 6;
 jumpsp = 10;
 
 lookRight = true;
+
+hasQueen = false;

@@ -207,11 +207,27 @@
             }
         },
         {
+            "Key": "3cb4eeca-f4f2-4f13-b3de-9c7c037ca6b7",
+            "Value": {
+                "id": "6d10d82a-5df3-4cb5-91e1-1c7141347e4a",
+                "resourcePath": "rooms\\rm_stairsEscape3\\rm_stairsEscape3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "3ea87e40-e047-4ede-b03d-eca355c9c456",
             "Value": {
                 "id": "1733e309-1def-4b35-93f7-1ef3b9a3ee3a",
                 "resourcePath": "objects\\obj_keyRed\\obj_keyRed.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4074da05-df84-4714-bbc8-3c409ff74246",
+            "Value": {
+                "id": "bf4dcfb9-18e3-4688-af4a-db5494aad0ed",
+                "resourcePath": "rooms\\rm_stairsEscape5\\rm_stairsEscape5.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -311,6 +327,14 @@
             }
         },
         {
+            "Key": "5839a52f-d4ea-4a76-bdad-e3d044aaf42d",
+            "Value": {
+                "id": "994d271c-b548-4bf5-8420-82edc8b2f128",
+                "resourcePath": "sprites\\bkr_princesChamber\\bkr_princesChamber.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5915087e-8eb6-4f42-bb4f-3dffb1fc8bbf",
             "Value": {
                 "id": "74ef08a5-6f4e-42c6-8862-2eb0225eaf58",
@@ -323,6 +347,14 @@
             "Value": {
                 "id": "4971d795-84e2-42a1-a7d4-04a3382502ac",
                 "resourcePath": "rooms\\rm_floor3\\rm_floor3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5b26052f-4a34-4d92-803f-62083ecdbbe3",
+            "Value": {
+                "id": "74201f84-70d7-44e6-ae83-cd66ed39e93b",
+                "resourcePath": "rooms\\rm_stairsEscape2\\rm_stairsEscape2.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -551,6 +583,14 @@
             }
         },
         {
+            "Key": "97b2423a-7ba7-4693-ac3a-36396864f160",
+            "Value": {
+                "id": "1989b3a5-b5ec-45e1-b7e3-721a7be8c284",
+                "resourcePath": "rooms\\rm_stairsEscape1\\rm_stairsEscape1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9b364529-2a9f-496f-9c5c-5f9a2a74c569",
             "Value": {
                 "id": "bcfb5434-e64e-49bd-8504-dddef266f652",
@@ -564,6 +604,14 @@
                 "id": "0a448a27-32c1-4414-9a9d-79ccaf694269",
                 "resourcePath": "sprites\\spr_walkRight\\spr_walkRight.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a0ac1901-3a93-4f95-9971-33a7964f1b89",
+            "Value": {
+                "id": "0c4a9254-54fd-4141-a383-39ae414893d2",
+                "resourcePath": "rooms\\rm_stairsEscape4\\rm_stairsEscape4.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
