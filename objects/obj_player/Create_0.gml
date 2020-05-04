@@ -17,3 +17,5 @@ jumpsp = 10;
 lookRight = true;
 
 hasQueen = false;
+
+atkObjects = obj_monster || obj_trainingDummy;

@@ -10,7 +10,9 @@
         "f2416cdc-6944-49fe-9b97-5fc1c06f37b4",
         "8e76cafa-3438-4f1f-b254-ab4835018c28",
         "f11f6fc1-31c8-4b65-ba80-0796e1f717e7",
-        "c7574c93-0c46-4a95-b404-ec0da2517022"
+        "c7574c93-0c46-4a95-b404-ec0da2517022",
+        "f1109c0d-6b38-411f-8bc0-f24337645115",
+        "14c5bf75-9196-4ee7-8dca-ba066f262ae5"
     ],
     "filterType": "GMSprite",
     "folderName": "Maurice",

@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "14c5bf75-9196-4ee7-8dca-ba066f262ae5",
+            "Value": {
+                "id": "0ae12526-8474-4af5-9977-c4130394742f",
+                "resourcePath": "sprites\\spr_atkLeft\\spr_atkLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "15397c99-18b5-4fe7-ae15-220e17ce047a",
             "Value": {
                 "id": "b137abbe-7a1f-41a9-81a8-9a5e0b7e072d",
@@ -375,6 +383,14 @@
             }
         },
         {
+            "Key": "5de89358-002f-470f-80f9-0815460221aa",
+            "Value": {
+                "id": "099d4217-5887-4743-ba5b-d0a2fa469e98",
+                "resourcePath": "sounds\\mus_inGame\\mus_inGame.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "5f68f57e-9cfb-4f49-81c5-e80f45e1cbb2",
             "Value": {
                 "id": "189e4ad9-628f-49d9-a9b8-70c5b9a0917a",
@@ -423,6 +439,14 @@
             }
         },
         {
+            "Key": "6d5a6413-93e0-4ef1-b235-a288aaa66ad5",
+            "Value": {
+                "id": "26747ff0-03a7-466d-9586-63739f3b2cd7",
+                "resourcePath": "sounds\\mus_startMenu\\mus_startMenu.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6e182366-64ac-4f83-99ad-542d9cb4858d",
             "Value": {
                 "id": "b631082c-eec5-4194-a937-72eb1b703bbd",
@@ -444,6 +468,14 @@
                 "id": "882d1390-a246-4c73-b77e-5ee90ae551a0",
                 "resourcePath": "sprites\\spr_lockBrown\\spr_lockBrown.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "71bc99d3-88e1-405a-a7b0-74016d7b121d",
+            "Value": {
+                "id": "0b65f191-7ce1-4720-9b82-d3faae0dddd5",
+                "resourcePath": "sounds\\mus_gameOver\\mus_gameOver.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -692,6 +724,14 @@
                 "id": "3b29824c-9403-4795-a3ea-4fcfd2623da0",
                 "resourcePath": "rooms\\rm_f4r1\\rm_f4r1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "aa74c663-af0b-46b0-b788-842e4cf01eb0",
+            "Value": {
+                "id": "8c4b970c-1d81-49e0-8a7a-2f371ba3fcbb",
+                "resourcePath": "objects\\obj_music\\obj_music.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -991,6 +1031,14 @@
             }
         },
         {
+            "Key": "d713814a-cd7a-43b8-b986-cdfa6946ff58",
+            "Value": {
+                "id": "db81f0a1-7007-4a0a-a9fc-b1bb0691ce0a",
+                "resourcePath": "sounds\\snd_deadKnight\\snd_deadKnight.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d9a26cce-109c-4349-83ba-0d270338e66e",
             "Value": {
                 "id": "128097b6-0bd6-4a3b-9ecd-177f9bd45bf4",
@@ -1055,6 +1103,14 @@
             }
         },
         {
+            "Key": "e4c40877-4009-4591-a114-d556e85d5e97",
+            "Value": {
+                "id": "3bad7254-83f2-44f1-a904-cefeb2478abf",
+                "resourcePath": "sounds\\snd_atkKnight\\snd_atkKnight.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e722be4a-0201-4f9b-baab-2abe344b4acc",
             "Value": {
                 "id": "5aefe636-4223-4d76-9cd8-6036142b3128",
@@ -1076,6 +1132,14 @@
                 "id": "22ed607b-a163-4292-ba81-b1726d6c7ca0",
                 "resourcePath": "scripts\\move\\move.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f1109c0d-6b38-411f-8bc0-f24337645115",
+            "Value": {
+                "id": "9521f6e1-f746-4381-9b22-8c6212433dbd",
+                "resourcePath": "sprites\\spr_atkRight\\spr_atkRight.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

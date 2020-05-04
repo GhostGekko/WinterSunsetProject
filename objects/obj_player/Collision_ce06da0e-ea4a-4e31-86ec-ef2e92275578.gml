@@ -1,5 +1,5 @@
 with (other) {
-	if (keyboard_check_pressed(ord("E")) && trainingHealth != 0 && other.seeable){
+	if (other.key_attack && trainingHealth != 0 && other.seeable){
 			trainingHealth -= 1;
 	}
 	if (trainingHealth == 0) {

@@ -35,6 +35,8 @@ global.playerHealth = 5;
 
 global.escaped = false;
 
-//room_goto_next();\
+global.princeFight = false;
 
-room_goto(rm_princesChamber);
+room_goto_next();
+
+//room_goto(rm_princesChamber);

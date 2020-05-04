@@ -14,7 +14,7 @@ key_left = keyboard_check(vk_left) or (keyboard_check(ord("A")));
 key_right = keyboard_check(vk_right) or (keyboard_check(ord("D")));
 
 key_jump = keyboard_check_pressed(vk_space);
-//key_attack = keyboard_check_pressed(ord("E"));
+key_attack = keyboard_check_pressed(ord("E"));
 key_crouching = keyboard_check_pressed(ord("H"));
 
 //Calculate movement
@@ -77,6 +77,17 @@ if (crouching) {
 		else {
 			sprite_index = spr_crouchLeft;
 		}
+	}
+}
+
+if ((place_meeting(x,y, obj_monster) || place_meeting(x,y, obj_trainingDummy))  && key_attack) {
+	if (lookRight){
+		sprite_index = spr_atkRight;
+		image_speed = 1;
+	}
+	else {
+		sprite_index = spr_atkLeft;
+		image_speed = 1;
 	}
 }
 
