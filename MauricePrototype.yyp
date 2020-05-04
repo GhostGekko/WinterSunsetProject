@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "538f4a78-81e6-40de-86ec-11e22b1951ac",
+            "Value": {
+                "id": "75e0805e-4fb5-4cfc-9f1c-0d4269d3fd58",
+                "resourcePath": "sounds\\snd_walk\\snd_walk.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "561df6f4-a81b-421d-8d47-ec8ab46bcad5",
             "Value": {
                 "id": "5b09bf66-f8fb-4b11-8e37-e4598be2cd8e",

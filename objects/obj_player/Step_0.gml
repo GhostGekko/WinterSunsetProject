@@ -34,6 +34,18 @@ if (meetsFloor && (key_jump)){
 
 move();
 
+audio_sound_pitch(snd_walk, 0.6);
+
+if (key_right && meetsFloor) {
+	if (!audio_is_playing(snd_walk)){
+		audio_play_sound(snd_walk, 20, false);
+	}
+}else if (key_left && meetsFloor){
+	if (!audio_is_playing(snd_walk)){
+		audio_play_sound(snd_walk, 20, false);
+	}
+}
+
 if (key_right){
 	lookRight = true;
 }
