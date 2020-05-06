@@ -1,3 +1,8 @@
+if (global.pause) {
+	image_speed = 0;
+	exit;
+}
+
 var dir = point_direction(x,y, obj_player.x, obj_player.y);
 
 if ((distance_to_object(obj_player) < 300) && obj_player.seeable) {

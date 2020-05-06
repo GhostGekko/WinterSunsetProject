@@ -39,4 +39,4 @@ global.princeFight = false;
 
 room_goto_next();
 
-//room_goto(rm_princesChamber);
+//room_goto(rm_floor2);

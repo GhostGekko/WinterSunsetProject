@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "01ba7535-b068-4315-9639-56e123bc862d",
+            "Value": {
+                "id": "06d32f2f-8bf3-4e11-a5c5-928b59f15a70",
+                "resourcePath": "sounds\\snd_atk\\snd_atk.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "03779342-252b-4ba3-abfa-5b9fdb2204a0",
             "Value": {
                 "id": "4ac0cd0c-6357-498c-9f68-1ef3008326dc",
@@ -84,6 +92,14 @@
                 "id": "e6cd791e-d78a-427c-879f-87fd27a7e785",
                 "resourcePath": "objects\\obj_lockBlack\\obj_lockBlack.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "18739359-8b7e-42af-beb5-c5386d57912e",
+            "Value": {
+                "id": "025ee2e4-1815-4a98-a31c-cbf7ac44bea5",
+                "resourcePath": "sprites\\spr_pitfallLeft\\spr_pitfallLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -767,6 +783,14 @@
             }
         },
         {
+            "Key": "ab8c7079-8856-40de-a97b-188d6ab96ccd",
+            "Value": {
+                "id": "2e9fc753-a5b7-4d0b-8b1f-2ead69b989a1",
+                "resourcePath": "objects\\obj_pitfallLeft\\obj_pitfallLeft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "acf0a17e-feb7-4869-9ced-d65bd592dda7",
             "Value": {
                 "id": "aaab4da5-f959-4248-b16f-7b786a870d67",
@@ -1124,6 +1148,22 @@
                 "id": "05cc337f-ae36-4e07-a7b8-801418e48491",
                 "resourcePath": "objects\\obj_bush\\obj_bush.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e32e379e-23ce-4721-a72e-5b78b3889bd7",
+            "Value": {
+                "id": "0577bcf2-7737-4e0d-9a13-0fc9cd7df46d",
+                "resourcePath": "objects\\obj_pitefallRight\\obj_pitefallRight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e34aec64-48ff-4ba3-aafb-14606dccddf9",
+            "Value": {
+                "id": "ccf27415-2ba9-453b-a75d-409be0ab4306",
+                "resourcePath": "sprites\\spr_pitfallRight\\spr_pitfallRight.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

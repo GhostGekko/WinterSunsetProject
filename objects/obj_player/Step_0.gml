@@ -93,6 +93,9 @@ if (crouching) {
 }
 
 if ((place_meeting(x,y, obj_monster) || place_meeting(x,y, obj_trainingDummy))  && key_attack) {
+	if (!audio_is_playing(snd_atk)){
+		audio_play_sound(snd_atk, 20, false);
+	}
 	if (lookRight){
 		sprite_index = spr_atkRight;
 		image_speed = 1;
