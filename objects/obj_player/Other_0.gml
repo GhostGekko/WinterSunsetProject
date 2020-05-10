@@ -1,3 +1,4 @@
-obj_player.x = 736;
-obj_player.y = 602;
-global.playerHealth -=1;
+timeStart = true;
+if (!audio_is_playing(snd_mauriceFalling)){
+	audio_play_sound(snd_mauriceFalling, 20, false);
+}

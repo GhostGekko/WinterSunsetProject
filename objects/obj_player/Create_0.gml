@@ -19,3 +19,7 @@ lookRight = true;
 hasQueen = false;
 
 atkObjects = obj_monster || obj_trainingDummy;
+
+time = 1.4;
+
+timeStart = false;

@@ -12,7 +12,10 @@ if ((distance_to_object(obj_player) < 300) && obj_player.seeable) {
 }
 
 if (changeDir == 0) {
-	changeDir = 180;
+	if (!audio_is_playing(snd_zombieRandom)){
+		audio_play_sound(snd_zombieRandom, 20, false);
+	}
+	changeDir = 240;
 }else {
 	changeDir -=1;
 }

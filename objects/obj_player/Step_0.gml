@@ -114,3 +114,20 @@ if(hasQueen){
 		global.escaped = true;
 	}
 }
+
+if (timeStart) {
+	if (time <= 0){
+		time = 0;
+	}
+	else {
+		time -= delta_time/1000000;
+	}
+}
+
+if (time == 0) {
+	timeStart = false;
+	obj_player.x = 736;
+	obj_player.y = 602;
+	global.playerHealth -=1;
+	time = 1.4;
+}
