@@ -5,6 +5,8 @@ else{
 	room_goto_next();
 }*/
 
+global.view = false;
+
 global.pause = 0;
 
 global.keyGreen = false;
@@ -37,6 +39,6 @@ global.escaped = false;
 
 global.princeFight = false;
 
-room_goto_next();
+//room_goto_next();
 
-//room_goto(rm_floor2);
+room_goto(rm_f1r3);

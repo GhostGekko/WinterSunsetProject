@@ -7,7 +7,7 @@ if (global.pause && instance_exists(obj_player))
 {
 	draw_set_color(c_black);
 	draw_set_alpha(0.5);
-	draw_rectangle(0,0,vw,vw,0);
+	draw_rectangle(0,0,vw,vh,0);
 
 	
 	saveX = view_wport[0]*(3/8);

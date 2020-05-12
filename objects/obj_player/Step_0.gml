@@ -3,7 +3,7 @@ if (global.playerHealth == 0) {
 	room_goto(rm_gameOver);
 }
 
-if (global.pause)
+if (global.pause || global.view)
 {
 	image_speed = 0;
 	exit;
