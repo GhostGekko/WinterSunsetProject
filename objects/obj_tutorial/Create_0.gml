@@ -8,4 +8,4 @@ pressedHide = false;
 
 pressedAttack = false;
 
-tutTime = 10;
+tutTime = 5;

@@ -6,7 +6,8 @@
     "children": [
         "1708ac3e-fb9f-4ffb-90a7-3f60e0162732",
         "cdb2cd6f-c256-46a0-b952-a490c1149bc9",
-        "d2b417c5-a9bf-406b-a3be-7b69cb75d9cc"
+        "d2b417c5-a9bf-406b-a3be-7b69cb75d9cc",
+        "75cbe766-bfef-4221-97d9-a81940b4de88"
     ],
     "filterType": "GMSprite",
     "folderName": "Hide",

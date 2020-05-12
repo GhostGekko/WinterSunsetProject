@@ -1,3 +1,7 @@
+if (global.pause) {
+	exit;
+}
+
 //Left
 if ((keyboard_check_pressed(vk_left) or keyboard_check(ord("A"))) && (pressedLeft == false)){
 		pressedLeft  = true;
@@ -35,4 +39,10 @@ if (pressedAttack && (obj_tutorial.pressedAttack == true)) {
 	else {
 		tutTime = 0;
 	}
+}
+
+if (tutTime == 0 && room == rm_tutorial) {
+	room_goto(rm_pathToCastle);
+	obj_player.x = 216;
+	obj_player.y = 600;
 }
