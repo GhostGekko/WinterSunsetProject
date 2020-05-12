@@ -39,6 +39,10 @@ global.escaped = false;
 
 global.princeFight = false;
 
-//room_goto_next();
+global.crouching = false;
 
-room_goto(rm_f1r3);
+global.seeable = true;
+
+room_goto_next();
+
+//room_goto(rm_floor1);

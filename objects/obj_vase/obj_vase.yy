@@ -1,23 +1,14 @@
 {
-    "id": "e2119058-84fb-493e-a089-ab7e22f4f99b",
+    "id": "035bb537-fbf6-4e7d-9da3-7406cb2510e2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_bush",
+    "name": "obj_vase",
     "eventList": [
-        {
-            "id": "a738c031-1518-4aa5-b87c-d2659fe7998c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "e2119058-84fb-493e-a089-ab7e22f4f99b"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "e2119058-84fb-493e-a089-ab7e22f4f99b",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "1708ac3e-fb9f-4ffb-90a7-3f60e0162732",
+    "spriteId": "d2b417c5-a9bf-406b-a3be-7b69cb75d9cc",
     "visible": true
 }

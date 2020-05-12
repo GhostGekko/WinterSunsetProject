@@ -1,7 +1,3 @@
-seeable = true;
-
-crouching = false;
-
 depth = 0;
 
 hsp = 0;

@@ -15,7 +15,7 @@ key_right = keyboard_check(vk_right) or (keyboard_check(ord("D")));
 
 key_jump = keyboard_check_pressed(vk_space);
 key_attack = keyboard_check_pressed(ord("E"));
-key_crouching = keyboard_check_pressed(ord("H"));
+key_crouching = keyboard_check(ord("H"));
 
 //Calculate movement
 var _move = key_right - key_left;
@@ -33,6 +33,7 @@ if (meetsFloor && (key_jump)){
 }
 
 move();
+hide();
 
 audio_sound_pitch(snd_walk, 0.6);
 
@@ -77,11 +78,7 @@ if (!(key_left || key_right)){
 	image_speed = 0;
 }
 
-if (key_crouching){
-	crouching = !crouching;
-}
-
-if (crouching) {
+if (global.crouching) {
 	if (!(key_left || key_right)) {
 		if (lookRight) {
 			sprite_index = spr_crouchRight;
@@ -131,3 +128,5 @@ if (time == 0) {
 	global.playerHealth -=1;
 	time = 1.4;
 }
+
+

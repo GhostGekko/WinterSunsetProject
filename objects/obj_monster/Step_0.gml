@@ -22,7 +22,7 @@ if (changeDir == 0) {
 
 monMove();
 
-if (place_meeting(x,y, obj_player)) {
+if (place_meeting(x,y, obj_player) && obj_player.seeable) {
 	if (attackTime == 0){
 		global.playerHealth -=1;
 		attackTime = 120;

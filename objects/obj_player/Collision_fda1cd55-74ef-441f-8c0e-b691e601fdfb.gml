@@ -1,5 +1,5 @@
 with (other) {
-	if (other.key_attack && monHealth != 0 && other.seeable){
+	if (other.key_attack && monHealth != 0 && global.seeable){
 			monHealth -= 1;
 			audio_play_sound(snd_atkKnight, 20, false);
 	}

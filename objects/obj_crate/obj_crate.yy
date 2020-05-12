@@ -1,23 +1,14 @@
 {
-    "id": "e2119058-84fb-493e-a089-ab7e22f4f99b",
+    "id": "928912b3-ac41-41ad-b152-059501eee3b5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_bush",
+    "name": "obj_crate",
     "eventList": [
-        {
-            "id": "a738c031-1518-4aa5-b87c-d2659fe7998c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "e2119058-84fb-493e-a089-ab7e22f4f99b"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "e2119058-84fb-493e-a089-ab7e22f4f99b",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "1708ac3e-fb9f-4ffb-90a7-3f60e0162732",
+    "spriteId": "cdb2cd6f-c256-46a0-b952-a490c1149bc9",
     "visible": true
 }
