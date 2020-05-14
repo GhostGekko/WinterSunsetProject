@@ -1,4 +1,12 @@
-if (place_meeting(x,y,obj_player) && keyboard_check_pressed(vk_enter)) {
+if (room == rm_princesChamber && !global.princeDead){
+	image_speed = 0;
+	exit;
+}
+
+if (place_meeting(x,y,obj_player) && keyboard_check_pressed(vk_enter) && room != rm_princesChamber) {
+	fadestartClock = true;
+}
+else if (place_meeting(x,y,obj_player) && keyboard_check_pressed(vk_enter) && global.princeDead){
 	fadestartClock = true;
 }
 else if (!place_meeting(x,y,obj_player)) {

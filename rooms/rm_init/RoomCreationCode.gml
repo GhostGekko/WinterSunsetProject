@@ -45,4 +45,8 @@ global.seeable = true;
 
 global.talking = 0;
 
-room_goto(rm_startScreen);
+global.princeDead = false;
+
+//room_goto(rm_startScreen);
+
+room_goto(rm_princesChamber);

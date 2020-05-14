@@ -1,3 +1,7 @@
+if (room == rm_princesChamber && !global.princeDead){
+	exit;
+}
+
 display_set_gui_size(camera_get_view_width(view_camera[0]), camera_get_view_height(view_camera[0]));
 	
 vw = view_wport[0]; // gets view width

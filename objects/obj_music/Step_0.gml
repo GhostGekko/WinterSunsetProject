@@ -12,7 +12,7 @@ else if (!(room == rm_gameOver)) {
 	audio_stop_sound(mus_gameOver);
 }
 
-if !(room == rm_startScreen || room == rm_gameOver || room == rm_youWin) && !audio_is_playing(mus_inGame) && !global.princeFight{
+if (!(room == rm_startScreen || room == rm_gameOver || room == rm_youWin) && !audio_is_playing(mus_inGame) && !global.princeFight){
 	audio_play_sound(mus_inGame,10, true);
 }
 else if (global.princeFight || (room == rm_startScreen || room == rm_gameOver || room == rm_youWin)) {

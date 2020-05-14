@@ -92,7 +92,7 @@ if (global.crouching) {
 	}
 }
 
-if ((place_meeting(x,y, obj_monster) || place_meeting(x,y, obj_trainingDummy))  && key_attack) {
+if ((place_meeting(x,y, obj_monster) || place_meeting(x,y, obj_trainingDummy) || (place_meeting(x,y, obj_baxter) && global.princeFight))  && key_attack) {
 	if (!audio_is_playing(snd_atk)){
 		audio_play_sound(snd_atk, 20, false);
 	}
@@ -110,7 +110,7 @@ if(hasQueen){
 	jumpsp = 0;
 	walksp = 5;
 	grv = 0.6;
-	if (room == rm_pathToCastle) {
+	if (room == rm_escaped) {
 		global.escaped = true;
 	}
 }

@@ -7,7 +7,7 @@ else {
 
 var dir = point_direction(x,y, obj_player.x + follow, obj_player.y);
 
-if (distance_to_object(obj_player) < 300) {
+if (global.princeDead) {
 	hsp = lengthdir_x(chase, dir);
 	obj_player.hasQueen = true;
 }

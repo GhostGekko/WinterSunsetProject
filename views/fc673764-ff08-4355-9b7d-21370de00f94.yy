@@ -5,7 +5,8 @@
     "name": "fc673764-ff08-4355-9b7d-21370de00f94",
     "children": [
         "3a62c092-db91-4488-8f0d-51115320d07d",
-        "cbde6416-6c60-4a09-9a90-82026e7d26a7"
+        "cbde6416-6c60-4a09-9a90-82026e7d26a7",
+        "67e6ab1a-ebb3-4c84-81a5-455993861b90"
     ],
     "filterType": "GMObject",
     "folderName": "Players\/NPC",
