@@ -1239,6 +1239,14 @@
             }
         },
         {
+            "Key": "c57d8495-88a9-466d-a6dc-568ba4959e0a",
+            "Value": {
+                "id": "e72640fb-1034-4d88-80f4-e1682bfc9d82",
+                "resourcePath": "objects\\obj_script\\obj_script.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c63c94f0-8b3a-4712-9245-26cb443b62ac",
             "Value": {
                 "id": "56cd859e-2e9a-468c-a2cf-7acf1eb2ddcd",

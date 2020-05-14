@@ -5,7 +5,7 @@ if (global.pause) {
 
 var dir = point_direction(x,y, obj_player.x, obj_player.y);
 
-if ((distance_to_object(obj_player) < 300) && obj_player.seeable) {
+if ((distance_to_object(obj_player) < 300) && global.seeable) {
 	hsp = lengthdir_x(chase, dir);
 }else if (changeDir == 0) {
 	hsp = irandom_range(-1, 1);
@@ -22,9 +22,12 @@ if (changeDir == 0) {
 
 monMove();
 
-if (place_meeting(x,y, obj_player) && obj_player.seeable) {
+if (place_meeting(x,y, obj_player) && global.seeable) {
 	if (attackTime == 0){
 		global.playerHealth -=1;
+		if (!audio_is_playing(snd_mauricePain)){
+			audio_play_sound(snd_mauricePain, 20, false);
+		}
 		attackTime = 120;
 	}
 	else {

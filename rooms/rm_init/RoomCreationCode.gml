@@ -43,4 +43,6 @@ global.crouching = false;
 
 global.seeable = true;
 
+global.talking = 0;
+
 room_goto(rm_startScreen);
