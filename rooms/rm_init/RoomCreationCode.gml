@@ -35,6 +35,8 @@ global.lockBlue = true;
 
 global.playerHealth = 5;
 
+global.totalHealth = 5;
+
 global.escaped = false;
 
 global.princeFight = false;
@@ -49,4 +51,4 @@ global.princeDead = false;
 
 //room_goto(rm_startScreen);
 
-room_goto(rm_princesChamber);
+room_goto(rm_floor5);

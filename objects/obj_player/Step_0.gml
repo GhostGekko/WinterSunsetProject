@@ -2,7 +2,7 @@ if (global.playerHealth == 0) {
 	if (!audio_is_playing(snd_mauriceDeath)){
 		audio_play_sound(snd_mauriceDeath, 20, false);
 	}
-	instance_deactivate_object(obj_player);
+	instance_destroy();
 	room_goto(rm_gameOver);
 }
 

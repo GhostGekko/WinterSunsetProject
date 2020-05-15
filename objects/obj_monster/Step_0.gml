@@ -3,6 +3,10 @@ if (global.pause) {
 	exit;
 }
 
+if (global.playerHealth == 0) {
+	instance_destroy();
+}
+
 var dir = point_direction(x,y, obj_player.x, obj_player.y);
 
 if ((distance_to_object(obj_player) < 300) && global.seeable) {

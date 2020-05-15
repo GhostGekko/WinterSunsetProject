@@ -1,3 +1,12 @@
+if (global.pause) {
+	image_speed = 0;
+	exit;
+}
+
+if (global.playerHealth == 0) {
+	instance_destroy();
+}
+
 if (obj_player.lookRight) {
 	follow = behindRight;
 }
