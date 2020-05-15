@@ -26,3 +26,8 @@ if (global.princeDead && global.talking == 10) {
 if (room == rm_escaped && global.talking <= 12) {
 	timer -=1;
 }
+
+if (global.talking ==13) {
+	global.win = true;
+	timer -=1;
+}

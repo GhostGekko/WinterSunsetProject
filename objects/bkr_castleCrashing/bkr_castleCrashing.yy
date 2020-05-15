@@ -1,34 +1,24 @@
 {
-    "id": "f8f4068b-7108-4c59-accc-b852ff2ac0dc",
+    "id": "13fff47e-5141-4198-9fd9-8fd00319a8d9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_healthBar",
+    "name": "bkr_castleCrashing",
     "eventList": [
         {
-            "id": "e86e4e10-4081-4ba8-a95c-63b417ffa892",
+            "id": "a225090c-2ab4-48c4-a316-fbbdc6cb2e70",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "f8f4068b-7108-4c59-accc-b852ff2ac0dc"
-        },
-        {
-            "id": "7bf059a6-5a56-4619-ad7d-fe0356fce947",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "f8f4068b-7108-4c59-accc-b852ff2ac0dc"
+            "eventtype": 3,
+            "m_owner": "13fff47e-5141-4198-9fd9-8fd00319a8d9"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "7c710708-09b1-42ae-8f52-00416337c87b",
     "visible": true
 }

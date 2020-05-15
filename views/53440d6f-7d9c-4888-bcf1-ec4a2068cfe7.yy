@@ -10,7 +10,8 @@
         "68c9ec45-aae7-4d68-adb4-f32fc6bc8bcb",
         "ad4be7cd-0f97-478e-bd4d-e581ef7f2e46",
         "aa74c663-af0b-46b0-b788-842e4cf01eb0",
-        "c57d8495-88a9-466d-a6dc-568ba4959e0a"
+        "c57d8495-88a9-466d-a6dc-568ba4959e0a",
+        "13fff47e-5141-4198-9fd9-8fd00319a8d9"
     ],
     "filterType": "GMObject",
     "folderName": "Gui elements",

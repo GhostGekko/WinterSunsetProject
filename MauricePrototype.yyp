@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "13fff47e-5141-4198-9fd9-8fd00319a8d9",
+            "Value": {
+                "id": "84b339ba-9588-49c1-aed2-77dfb6e8ef97",
+                "resourcePath": "objects\\bkr_castleCrashing\\bkr_castleCrashing.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "14c5bf75-9196-4ee7-8dca-ba066f262ae5",
             "Value": {
                 "id": "0ae12526-8474-4af5-9977-c4130394742f",
@@ -706,7 +714,7 @@
             "Key": "7c710708-09b1-42ae-8f52-00416337c87b",
             "Value": {
                 "id": "ba7f4a46-2b8f-4d05-9a07-1aca48d74b9a",
-                "resourcePath": "sprites\\bkr_darkCastle01\\bkr_darkCastle01.yy",
+                "resourcePath": "sprites\\bkr_darkCastle\\bkr_darkCastle.yy",
                 "resourceType": "GMSprite"
             }
         },

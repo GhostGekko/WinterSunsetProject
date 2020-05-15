@@ -1,10 +1,3 @@
-/*if (file_exists("Save.dat")){
-	game_load("Save.dat");
-}
-else{
-	room_goto_next();
-}*/
-
 global.view = false;
 
 global.pause = 0;
@@ -49,6 +42,6 @@ global.talking = 0;
 
 global.princeDead = false;
 
-//room_goto(rm_startScreen);
+global.win = false;
 
-room_goto(rm_floor5);
+room_goto(rm_startScreen);

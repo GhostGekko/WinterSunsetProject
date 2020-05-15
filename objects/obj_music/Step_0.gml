@@ -22,6 +22,6 @@ else if (global.princeFight || (room == rm_startScreen || room == rm_gameOver ||
 if (global.princeFight && !audio_is_playing(mus_bossFight)) {
 	audio_play_sound(mus_bossFight,10, true);
 }
-if (room == rm_gameOver || room == rm_escaped) {
+if (room == rm_gameOver || room == rm_escaped || room == rm_youWin) {
 	audio_stop_sound(mus_bossFight);
 }

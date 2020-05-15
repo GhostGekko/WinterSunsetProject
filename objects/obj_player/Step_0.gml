@@ -6,6 +6,11 @@ if (global.playerHealth == 0) {
 	room_goto(rm_gameOver);
 }
 
+if ( global.talking == 14 ){
+	instance_destroy();
+	room_goto(rm_youWin);
+}
+
 if (global.pause || global.view)
 {
 	image_speed = 0;

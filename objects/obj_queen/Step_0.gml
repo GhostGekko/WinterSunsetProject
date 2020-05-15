@@ -3,7 +3,7 @@ if (global.pause) {
 	exit;
 }
 
-if (global.playerHealth == 0) {
+if (global.playerHealth == 0 || global.talking == 14) {
 	instance_destroy();
 }
 

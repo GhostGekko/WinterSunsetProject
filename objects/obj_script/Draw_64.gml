@@ -66,3 +66,9 @@ if ((room == rm_escaped && global.talking == 11)) {
 if ((global.talking == 12)) {
 	draw_text_color(vw/2, vh/4, "It’s an honor to protect you and the kingdom.", maurice, maurice,maurice,maurice,1);
 }
+
+if (global.win) {
+	draw_set_color(c_black);
+	draw_set_alpha(1 - timer/300);
+	draw_rectangle(0,0, view_wport[0], view_hport[0], 0);
+}
