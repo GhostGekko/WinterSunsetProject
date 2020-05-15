@@ -290,7 +290,7 @@
             "Key": "397c84f9-4df9-4e67-a832-0e5e4aac8262",
             "Value": {
                 "id": "a300dd04-6311-44f9-b6ef-2e2f368ad6ee",
-                "resourcePath": "sprites\\sprite56\\sprite56.yy",
+                "resourcePath": "sprites\\spr_baxter\\spr_baxter.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1655,6 +1655,14 @@
             }
         },
         {
+            "Key": "f83251b0-a32e-4649-afb0-f2ed31f4793b",
+            "Value": {
+                "id": "25f3ec94-6fe5-447a-a38a-77e17e669a40",
+                "resourcePath": "sprites\\spr_baxterAttack\\spr_baxterAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f8e9961f-c30d-4dce-bde0-78b7a2b4e848",
             "Value": {
                 "id": "b3e493c1-9291-4d75-a0a4-db13761335fc",
@@ -1684,6 +1692,14 @@
                 "id": "bbc66bfb-f36c-4ff2-935a-52ab543f6def",
                 "resourcePath": "rooms\\rm_princesChamber\\rm_princesChamber.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "fa508eb4-dce6-4ebf-8f20-230315dbba0f",
+            "Value": {
+                "id": "0fab0a51-46af-4926-a49f-6d3d334ce1eb",
+                "resourcePath": "sounds\\mus_bossFight\\mus_bossFight.yy",
+                "resourceType": "GMSound"
             }
         },
         {

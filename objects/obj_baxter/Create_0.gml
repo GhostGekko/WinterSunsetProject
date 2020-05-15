@@ -10,4 +10,4 @@ depth = 1;
 
 princeHealth = 10;
 
-attackTime = 60;
+attackTime = 120;
