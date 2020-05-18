@@ -16,6 +16,11 @@ hasQueen = false;
 
 atkObjects = obj_monster || obj_trainingDummy;
 
-time = 1.4;
+pitTime = 1.4;
 
-timeStart = false;
+pitTimeStart = false;
+
+fallingXY = false;
+
+playerX = 0;
+playerY = 0;

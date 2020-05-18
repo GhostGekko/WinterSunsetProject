@@ -1,3 +1,7 @@
+if (global.pause){
+	exit;
+}
+
 if (room == rm_pathToCastle && global.talking <= 1) {
 	timer -=1;
 }

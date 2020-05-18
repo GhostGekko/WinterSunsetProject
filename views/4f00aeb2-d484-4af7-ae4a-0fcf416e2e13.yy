@@ -7,7 +7,8 @@
         "3c8ff000-7ce6-4752-b9dd-00bf1c93b0d1",
         "4b7c7dd8-6acc-4938-978e-edef9c8ee792",
         "561df6f4-a81b-421d-8d47-ec8ab46bcad5",
-        "6f62590a-3a26-4179-9963-e3c5a9ddaed6"
+        "6f62590a-3a26-4179-9963-e3c5a9ddaed6",
+        "fa6d5baa-6fbf-4b6e-a4c4-4b5dca8ddfb1"
     ],
     "filterType": "GMSprite",
     "folderName": "Gui Elements",

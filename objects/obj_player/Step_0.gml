@@ -7,6 +7,7 @@ if (global.playerHealth == 0) {
 }
 
 if ( global.talking == 14 ){
+	instance_destroy(obj_queen);
 	instance_destroy();
 	room_goto(rm_youWin);
 }
@@ -120,19 +121,25 @@ if(hasQueen){
 	}
 }
 
-if (timeStart) {
-	if (time <= 0){
-		time = 0;
+if (fallingXY) {
+	playerX = obj_player.x;
+	playerY = obj_player.y;
+	fallingXY = false;
+}
+
+if (pitTimeStart) {
+	if (pitTime <= 0){
+		pitTime = 0;
 	}
 	else {
-		time -= delta_time/1000000;
+		pitTime -= delta_time/1000000;
 	}
 }
 
-if (time == 0) {
-	timeStart = false;
-	obj_player.x = 736;
-	obj_player.y = 602;
+if (pitTime == 0) {
+	pitTimeStart = false;
+	obj_player.x = playerX - 400;
+	obj_player.y = playerY - 460;
 	global.playerHealth -=1;
-	time = 1.4;
+	pitTime = 1.4;
 }

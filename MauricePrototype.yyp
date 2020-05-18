@@ -250,7 +250,7 @@
             "Key": "2ee66aa2-237d-496b-9e16-59afd7f8c636",
             "Value": {
                 "id": "09cd309e-7c19-41f3-9989-01d53169869a",
-                "resourcePath": "sprites\\sprite23\\sprite23.yy",
+                "resourcePath": "sprites\\bkr_youWin\\bkr_youWin.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1716,6 +1716,14 @@
                 "id": "0fab0a51-46af-4926-a49f-6d3d334ce1eb",
                 "resourcePath": "sounds\\mus_bossFight\\mus_bossFight.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "fa6d5baa-6fbf-4b6e-a4c4-4b5dca8ddfb1",
+            "Value": {
+                "id": "9dc70129-f24b-424c-a403-99ba53426836",
+                "resourcePath": "sprites\\spr_deadHeart\\spr_deadHeart.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

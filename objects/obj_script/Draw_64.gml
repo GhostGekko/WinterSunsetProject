@@ -44,7 +44,7 @@ if ((global.talking == 7)) {
 }
 
 if (global.talking == 8) {
-	draw_text_color(vw/2, vh/4, "I am no wizard, I’m much more than that, Maurice. /n I am Baxter, the heir to this kingdom. /n You will not escape.", baxter, baxter,baxter,baxter,1);
+	draw_text_color(vw/2, vh/4, "I am no wizard, I’m much more than that, Maurice. \n I am Baxter, the heir to this kingdom. \n You will not escape.", baxter, baxter,baxter,baxter,1);
 }
 
 if ((global.talking == 9)) {
